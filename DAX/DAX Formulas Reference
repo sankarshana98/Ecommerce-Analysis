@@ -1,10 +1,10 @@
 ### Customer LTV (avg)
 Calculates the average customer lifetime value by dividing the total sales by the number of unique customers.
-                      - Customer LTV(avg) = SUM(Sales[Sales])/[Number of Customers]
+                      >  Customer LTV(avg) = SUM(Sales[Sales])/[Number of Customers]
 
 ### Profit %
 Calculates the profit percentage by dividing the total profit by the total sales.
-                        - Profit % = SUM(Sales[Profit (Baseline)])/SUM(Sales[Sales])
+                        > Profit % = SUM(Sales[Profit (Baseline)])/SUM(Sales[Sales])
 
 ### Baseline Running Total
 Calculates the running total of baseline shipping costs up to the maximum transaction date, considering all selected sales.
