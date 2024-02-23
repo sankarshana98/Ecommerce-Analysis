@@ -1,6 +1,7 @@
 ### Customer LTV (avg)
 Calculates the average customer lifetime value by dividing the total sales by the number of unique customers.
                       >  Customer LTV(avg) = SUM(Sales[Sales])/[Number of Customers]
+>
 
 ### Profit %
 Calculates the profit percentage by dividing the total profit by the total sales.
