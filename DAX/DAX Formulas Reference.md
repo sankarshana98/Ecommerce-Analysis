@@ -27,7 +27,7 @@ Calculates the baseline shipping cost, considering a tiered shipping cost struct
 ### Shipping (What-if)
 Calculates the what-if shipping cost, considering a blended shipping cost factor based on the quantity of products purchased.
 > Shipping (What-if) = SUMX(Sales, IF(Sales[Quantity]=1,Sales[Shipping Cost],Sales[Shipping Cost]+(((Sales[Quantity])-1)*(Sales[Shipping Cost]*
- [Blended Shipping Cost Factor]))))
+   [Blended Shipping Cost Factor]))))
 
 ### Shipping Difference
 Calculates the difference between baseline and what-if shipping costs.
